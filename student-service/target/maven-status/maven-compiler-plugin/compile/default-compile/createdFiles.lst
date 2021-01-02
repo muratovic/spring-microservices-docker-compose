@@ -1,0 +1,6 @@
+com/muratovic/studentservice/controller/StudentController.class
+com/muratovic/studentservice/service/StudentService.class
+com/muratovic/studentservice/SpringAopApplication.class
+com/muratovic/studentservice/service/StudentServiceImpl.class
+com/muratovic/studentservice/repository/StudentRepository.class
+com/muratovic/studentservice/domain/Student.class
