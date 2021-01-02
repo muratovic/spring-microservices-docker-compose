@@ -1,6 +1,7 @@
 com/muratovic/noteservice/repository/NoteRepository.class
 com/muratovic/noteservice/domain/Note.class
 com/muratovic/noteservice/controller/NoteController.class
+com/muratovic/noteservice/NoteServiceApplication.class
 com/muratovic/noteservice/service/NoteServiceImpl.class
-com/muratovic/noteservice/SpringAopApplication.class
+com/muratovic/noteservice/domain/Student.class
 com/muratovic/noteservice/service/NoteService.class

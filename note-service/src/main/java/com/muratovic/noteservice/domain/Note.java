@@ -15,23 +15,33 @@ public class Note {
 
     @Column(nullable = false)
     @NotNull(message = "Seat count can not be null!")
-    private String name;
+    private String courseName;
 
-    @Column(nullable = false)
-    @NotNull(message = "Seat count can not be null!")
-    private String surname;
+    private Integer score;
+
+    @ManyToOne
+    @JoinColumn(name="student_id", nullable=false)
+    private Student student;
 
     @Override
     public String toString() {
         return "Note{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
+                ", courseName='" + courseName + '\'' +
+                ", score='" + score + '\'' +
                 '}';
     }
 
     public Note() {
 
+    }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
     }
 
     public Long getId() {
@@ -42,19 +52,19 @@ public class Note {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getCourseName() {
+        return courseName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
     }
 
-    public String getSurname() {
-        return surname;
+    public Integer getScore() {
+        return score;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
+    public void setScore(Integer score) {
+        this.score = score;
     }
 }
