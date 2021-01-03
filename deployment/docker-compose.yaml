@@ -7,6 +7,7 @@ services:
       context: ../student-service
     ports:
       - "8082:8082"
+      - "7782:7777"
     container_name: student_service
     depends_on:
       - db
@@ -22,6 +23,7 @@ services:
       context: ../note-service
     ports:
       - "8081:8081"
+      - "7781:7777"
     container_name: note_service
     depends_on:
       - db
