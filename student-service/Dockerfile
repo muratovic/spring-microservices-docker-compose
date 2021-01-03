@@ -5,6 +5,5 @@ MAINTAINER Murat Öztürk <muratozturk1987@gmail.com>
 ARG JAR_FILE=target/*.jar
 ENV JAVA_TOOL_OPTIONS "-agentlib:jdwp=transport=dt_socket,address=7777,server=y,suspend=n"
 COPY ${JAR_FILE} muratovic-student-service.jar
-EXPOSE 8082
-EXPOSE 7777
+EXPOSE 8082 7777
 ENTRYPOINT ["java","-jar", "/muratovic-student-service.jar"]
