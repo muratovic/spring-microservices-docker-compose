@@ -1,7 +1,0 @@
-/Development/personal_repos/spring-microservices-docker-compose/note-service/src/main/java/com/muratovic/noteservice/service/NoteServiceImpl.java
-/Development/personal_repos/spring-microservices-docker-compose/note-service/src/main/java/com/muratovic/noteservice/repository/NoteRepository.java
-/Development/personal_repos/spring-microservices-docker-compose/note-service/src/main/java/com/muratovic/noteservice/controller/NoteController.java
-/Development/personal_repos/spring-microservices-docker-compose/note-service/src/main/java/com/muratovic/noteservice/domain/Student.java
-/Development/personal_repos/spring-microservices-docker-compose/note-service/src/main/java/com/muratovic/noteservice/NoteServiceApplication.java
-/Development/personal_repos/spring-microservices-docker-compose/note-service/src/main/java/com/muratovic/noteservice/domain/Note.java
-/Development/personal_repos/spring-microservices-docker-compose/note-service/src/main/java/com/muratovic/noteservice/service/NoteService.java

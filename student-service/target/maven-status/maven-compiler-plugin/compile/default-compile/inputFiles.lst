@@ -1,7 +1,0 @@
-/Development/personal_repos/spring-microservices-docker-compose/student-service/src/main/java/com/muratovic/studentservice/repository/StudentRepository.java
-/Development/personal_repos/spring-microservices-docker-compose/student-service/src/main/java/com/muratovic/studentservice/controller/StudentController.java
-/Development/personal_repos/spring-microservices-docker-compose/student-service/src/main/java/com/muratovic/studentservice/service/StudentServiceImpl.java
-/Development/personal_repos/spring-microservices-docker-compose/student-service/src/main/java/com/muratovic/studentservice/domain/Student.java
-/Development/personal_repos/spring-microservices-docker-compose/student-service/src/main/java/com/muratovic/studentservice/domain/Note.java
-/Development/personal_repos/spring-microservices-docker-compose/student-service/src/main/java/com/muratovic/studentservice/StudentServiceApplication.java
-/Development/personal_repos/spring-microservices-docker-compose/student-service/src/main/java/com/muratovic/studentservice/service/StudentService.java
